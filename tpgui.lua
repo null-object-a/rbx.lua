@@ -2030,7 +2030,7 @@ local maintab = window:AddTab("Main")
 local ws = game:GetService("Workspace")
 local plr = game:GetService("Players").LocalPlayer
 local hrp = plr.Character.HumanoidRootPart
-
+local defurl = "https://raw.githubusercontent.com/null-object-a/rbx.lua/main/"
   getgenv().tptosite = function(site) 
 	for i,v in pairs(game:GetService("Workspace").Spawns.SpawnLocations:GetChildren()) do 
 		if site == v.Name then 
@@ -2043,7 +2043,7 @@ local hrp = plr.Character.HumanoidRootPart
   end
 
   plr.Character.Humanoid.Died:Connect(function()
-   loadstring(game:HttpGet("https://github.com/null-object-a/rbx.lua/tpgui.lua"))()
+   loadstring(game:HttpGet(defurl.."tpgui.lua"))()
   end)
   local tpd = maintab:AddDropdown("Teleport to", function(text)
     tptosite(text)

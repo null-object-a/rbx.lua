@@ -1,1 +1,1 @@
-_G.WL = {"Vxrtan","Wl0n0","XDbruhXDa","santipro3226"}
+_G.WL = {"Vxrtan","Wl0n0","XDbruhXDa","santipro3226","omgitdontwork"}

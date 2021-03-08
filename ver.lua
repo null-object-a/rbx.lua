@@ -1,1 +1,0 @@
-getgenv().serverver = 1
